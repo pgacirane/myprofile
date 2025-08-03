@@ -3,67 +3,159 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIONISER</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Patrick Gacirane - Software Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #212529;
+    }
+    nav a {
+      color: white !important;
+    }
+    nav a:hover, nav .nav-link.active {
+      color: #ffc107 !important;
+    }
+    section {
+      padding: 80px 0;
+    }
+    .hero {
+      background: linear-gradient(to right, #212529, #495057);
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+  </style>
 </head>
-<body>
-  <header>
-    <img src="assets/logo.jpeg" alt="AIONISER Logo" class="logo" />
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#services">Services</a>
-      <a href="#solutions">Solutions</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Patrick Gacirane</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <section id="home" class="hero">
-    <h1>Smart Agents. Real Solutions. AI That Works for You.</h1>
-    <p>At AIONISER, we create intelligent AI applications, transform them into seamless APIs, and build easy-to-use web apps...</p>
-    <a href="#contact" class="cta">Contact Us Today</a>
+    <div class="container">
+      <h1 class="display-4">Patrick Gacirane</h1>
+      <p class="lead">Machine Learning Specialist and Full-Stack Software Developer</p>
+      <p>Experienced in building intelligent systems, predictive models, and robust web applications for national and international stakeholders.</p>
+    </div>
   </section>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>AIONISER is a cutting-edge AI company rooted in Kigali’s tech ecosystem...</p>
-    <ul>
-      <li>End-to-end AI services from one trusted partner</li>
-      <li>Smart agents that adapt dynamically</li>
-      <li>Practical impact — see Global Legal Companion</li>
-      <li>Accessible APIs and apps for everyone</li>
-    </ul>
+  <section id="projects">
+    <div class="container">
+      <h2 class="text-center mb-5">Software Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h5>SmartGrad Multi-Agent System</h5>
+          <p>An AI-based educational guide that assists high school students in selecting university programs through personalized recommendations.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Igisoro Game Brain</h5>
+          <p>A traditional Rwandan game enhanced with AI using neural networks to create a responsive and intelligent opponent.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>EACO Data Bank</h5>
+          <p>Designed and developed a secure multi-user web application for regulatory authorities across 6 East African countries. <a href="http://196.12.130.150:8080/EACO/mainLoginPage/login15.jsp">Portal Link</a></p>
+        </div>
+        <div class="col-md-6">
+          <h5>AiCurbCov19+</h5>
+          <p>A mobile-based AI project for detecting COVID-19 through audio and symptomatic patterns, submitted to a global innovation competition.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Q-Payer</h5>
+          <p>Mobile payment app listed on Google Play Store enabling fast and secure financial transactions.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>IKAZE App</h5>
+          <p>An ID-scanning Android application developed to combat identity theft.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Shop Keeper POS</h5>
+          <p>A Rwanda Revenue Authorityâ€“certified web-based point-of-sale application for retailers and supermarkets.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Biometric Voting System</h5>
+          <p>Fingerprint-enabled voting system for secure and transparent elections.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li><strong>AI Application Development</strong> — Custom models & smart agents</li>
-      <li><strong>API-as-a-Service</strong> — Seamless system integration</li>
-      <li><strong>Custom Web Apps</strong> — User-friendly AI interfaces</li>
-      <li><strong>Automation & Insights</strong> — Data-powered transformation</li>
-    </ul>
+  <section id="experience" class="bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Experience</h2>
+      <ul>
+        <li><strong>Freelance Developer (2018â€“present):</strong> Delivered web and AI solutions for clients across domains.</li>
+        <li><strong>Researcher Analyst â€“ RURA (2019â€“2022):</strong> Developed machine learning models, AI frameworks, and national AI strategies.</li>
+        <li><strong>Information Application Analyst â€“ RURA (2016â€“2019):</strong> Led application modernization and contributed to cybersecurity policy.</li>
+        <li><strong>Application Developer â€“ EUCL (2015â€“2016):</strong> Created and customized business software solutions for the utility company.</li>
+        <li><strong>Application Analyst â€“ EWSA (2012â€“2015):</strong> Built technical systems for water and energy utilities.</li>
+        <li><strong>Billing Controller â€“ ELECTROGAZ:</strong> Oversaw billing systems, reduced errors, and improved reporting structures.</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="solutions">
-    <h2>Solutions</h2>
-    <p><strong>Global Legal Companion:</strong> An AI-powered app for legal compliance and guidance.</p>
+  <section id="skills">
+    <div class="container">
+      <h2 class="text-center mb-5">Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Web & App Development</h5>
+          <ul>
+            <li>Java, JSP, HTML, CSS, JS, Bootstrap</li>
+            <li>AJAX, SQL, NetBeans, Apache Tomcat</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Machine Learning</h5>
+          <ul>
+            <li>Scikit-learn, TensorFlow, PCA, SVM</li>
+            <li>Grid Search, Cross-validation, Ensemble</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Multi-Agent Systems</h5>
+          <ul>
+            <li>JADE Framework, CrewAI</li>
+            <li>Negotiation Models, Simulation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>We’d love to hear about your AI project or how we can help your organization innovate.</p>
-    <ul>
-      <li><strong>Address:</strong> Kigali, Kicukiro, Rwanda</li>
-      <li><strong>Phone:</strong> 0787100878 / 0783055721</li>
-      <li><strong>Email:</strong> pattos1900@gmail.com / kundstella1@gmail.com</li>
-    </ul>
+  <section id="contact" class="bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Contact</h2>
+      <p>Email: <a href="mailto:paga081@gmail.com">paga081@gmail.com</a></p>
+      <p>Phone: +250 787 100 878</p>
+      <p>Location: Kigali, Rwanda</p>
+      <p><a href="https://www.coursera.org/learner/gacirane-patrick-2326" target="_blank">Coursera Profile</a></p>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 AIONISER. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
